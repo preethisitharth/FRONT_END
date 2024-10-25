@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>:
+    <style>
+        .container
+        {
+            display: flex;
+
+        }
+        .para1
+        {
+            background-color: aquamarine;
+            flex: 1;
+            order: 2;
+
+
+        }
+        .para2
+        {
+            background-color: rgb(red, green, blue);
+            flex: 2;
+            order: 1;
+        }
+        .para3
+        {
+            background-color: beige;
+            flex: 3;
+            order: 1;
+
+        }
+        .outerbox
+        {
+            background-color: bisque;
+            display: flex;
+            min-height: 400px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        .box{
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            border: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outerbox">
+        <div class="box"></div>
+        <div class="box box">
+
+        </div>
+    </div>
+    <div class="container">
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet quam culpa ab doloribus suscipit eum quo numquam exercitationem placeat facere tenetur sapiente dolor, alias nam id dignissimos natus omnis.</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem veniam quisquam commodi, aspernatur unde alias ratione voluptatibus reprehenderit! Molestias dolores debitis quia ullam quam consectetur iusto corporis? Sit, pariatur.</p>
+        <p class="para3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consectetur, dolorem fuga perspiciatis iure et voluptatem ea suscipit! Velit, quod corporis. Impedit totam similique minima voluptatem quo numquam at nisi.</p>
+    </div>
+    
+</body>
+</html>

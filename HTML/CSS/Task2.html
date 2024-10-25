@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TASK 2</title>
+<style>
+  body{
+    background-color: black;
+  }
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 3px solid #332b2b;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  
+  .form-container input[type="radio"],
+  .form-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  
+  .form-container .button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: rgb(14, 15, 16);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .submit-btn {
+    background-color: #72e68d;
+  }
+  .reset-btn {
+    background-color: #e63446;
+  }
+  .normal-btn {
+    background-color: #007bff;
+  
+  }
+</style>
+</head>
+<body>
+    
+
+
+<div class="form-container">
+  <form>
+    <h2>Feedback Form :</h2>
+    <p>1.How would you rate your experience?</p>
+
+    
+    <label>
+      <input type="radio" name="rating" value="good" class="radio"> Good
+    </label>
+    <label>
+      <input type="radio" name="rating" value="average" class="radio"> Average
+    </label>
+
+    
+    <p>2.Which features did you find useful?</p>
+    <label>
+      <input type="checkbox" name="feature1" value="ease-of-use" class="checkbox"> Ease of Use
+    </label>
+    <label>
+      <input type="checkbox" name="feature2" value="support" class="checkbox"> Support
+    </label>
+
+    
+    <button type="submit" class="button submit-btn">Submit Feedback</button>
+    <button type="reset" class="button reset-btn">Clear</button>
+    <button type="button" class="button normal-btn">Help</button>
+  </form>
+</div>
+
+</body>
+</html>
