@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+
+</head>
+<body>
+    <script>
+        let chocolatname=new Array();
+        chocolatname.push('Kitkat')
+        chocolatname.push('Galaxy')
+        chocolatname.push('Diarymilk')
+        chocolatname.push('Munch'    )
+        chocolatname.push('Darkfastancy')
+        chocolatname.unshift('Eclaris')  //add first
+        chocolatname.shift() //delete first element
+      //  chocolatname.sort()
+       document.writeln(chocolatname)
+    //    for(i=0;i<chocolatname.length;i++)
+    //    {
+    //     alert(chocolatname[i])
+    //    }
+       function listall(getting){
+        alert(getting)
+       }
+       chocolatname.map(listall)
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Pop Operation</title>
+</head>
+<body>
+    <script>
+        let values=['Preethi','sivasankari',12.5,25.5,'F',78];
+
+        document.writeln(values)
+        let names=new Array();
+        names.push("Annamalai")
+        names.push("sathish")
+        names.push("kumar")
+        names.push(78)
+        names.push(12.5)
+        document.writeln(names)
+
+//         let output=(temp)=>
+//     {
+//         alert(temp)
+//     }
+//     names.map(output)
+
+// names.pop()
+// document.writeln("<b>"+names+"<b>")
+
+let one=prompt("Tell us Delete positon")
+names=names.filter((temp,pos)=>{
+    return temp!==names[one]; //sathish!==temp[1]
+
+})
+names.map((temp)=>
+{
+    document.write(temp)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

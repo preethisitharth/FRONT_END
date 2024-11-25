@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHtml</title>
+</head>
+<body>
+    <button onclick="document.getElementById('getdate').innerHTML=Date()">
+        show date
+    </button>
+    <br>
+    <span id="getdate"></span>
+    <br>
+    <h1>Inner html is interchange a particlular content</h1>
+    <script>
+        let process="INNER HTML ";
+        document.getElementsByTagName('h1')[0].innerHTML=process;
+    </script>
+</body>
+</html>
