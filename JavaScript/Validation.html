@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function validation(){
+            let studentname=document.forms['validate'].student.value;
+        alert((/^[a-z]{1,10}$/).test(studentname))        }
+    </script>
+    <form name="validate">
+        <input type="text" name="studname" id='name' placeholder="enter your name"/>
+       <button onclick="validation()">REGISTER</button> 
+    </form>
+</body>
+</html>
